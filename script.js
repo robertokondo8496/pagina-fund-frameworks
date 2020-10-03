@@ -1,0 +1,1 @@
+// arquivo com os scripts em javascript
