@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
 </head>
 
 <body>
     
-    Página de aplicação JS.
+    <div id="header"> Página de aplicação JS.</div>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="bine"><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome"><br>
+        <button onclick="funcao()">Enviar!</button>
+    </form>
+
+    <div id="imagem">
+        <img src="./proibido.jpg">
+        Favor não passar o mouse sobre a imagem.
+    </div>
 
 </body>
