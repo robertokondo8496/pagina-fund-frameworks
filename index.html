@@ -7,18 +7,24 @@
 
 <body>
     
-    <div id="header"> Página de aplicação JS.</div>
+    <div id="header"> <h1>Página de aplicação JS.</h1></div>
     <form>
         <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="bine"><br>
+        <input type="text" id="nome" name="nome"><br>
         <label for="sobrenome">Sobrenome:</label><br>
         <input type="text" id="sobrenome" name="sobrenome"><br>
-        <button onclick="funcao()">Enviar!</button>
+        <label for="opcoes">Selecione uma opção:</label>
+        <select id="opcoes" name="opcoes">
+            <option>Op1</option>
+            <option>Op2</option>
+            <option>Op3</option>
+        </select>
+        <button>Enviar!</button>
     </form>
 
     <div id="imagem">
-        <img src="./proibido.jpg">
-        Favor não passar o mouse sobre a imagem.
+        <img src="./proibido.jpg" onmouseover="funcaoimagem()"><Br>
+        <h3>Favor não passar o mouse sobre a imagem.</h3>
     </div>
 
 </body>
